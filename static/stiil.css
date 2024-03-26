@@ -1,16 +1,16 @@
-    /* Reset some default styles for better consistency */
+    
     body, h1, h2, h3, p {
         margin: 0;
         padding: 0;
     }
     
-    /* Set a background color and text color for the entire website */
+   
     body {
         background-color: #ffffff;
         font-family: Arial, sans-serif;
         color: #333;
-        min-height: 100vh; /* Set minimum height of the body to 100% of viewport height */
-        display: flex; /* Use flexbox for layout */
+        min-height: 100vh; 
+        display: flex; 
         flex-direction: column;
     }
     
@@ -18,13 +18,13 @@
         text-align: center;
         padding: 20px;
         background-color: #ffffff;
-        border-radius: 15px; /* Add border radius for a rounded appearance */
+        border-radius: 15px; 
         border: 2px solid #333;
     }
     
     .center h1 {
         color: #333;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
         font-size: 40px
     }
     
@@ -40,7 +40,7 @@
     
     .inside {
         width: 400px;
-        height: 300px; /* Set a fixed height */
+        height: 300px; 
         margin: 0 10px;
         overflow: hidden;
         border-radius: 10px;
@@ -49,8 +49,8 @@
     
     .pilt {
         width: 100%;
-        height: 100%; /* Ensure the image covers the container */
-        object-fit: cover; /* Ensure the image covers the container without distortion */
+        height: 100%; 
+        object-fit: cover; 
         display: block;
         transition: transform 0.3s ease-in-out;
     }
@@ -65,10 +65,10 @@
         display: flex;
         align-items: center;
         font-family: "Arial", sans-serif;
-        font-size: 38px; /* Increase the font size */
+        font-size: 38px; 
         font-weight: bold;
         justify-content: center;
-        color: #333; /* Text color */
+        color: #333; 
         text-decoration: none;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
     }
@@ -124,40 +124,7 @@
         padding-top: 60px;
       }
     
-    /* Hero section */
-    #hero {
-       background-color: #e08a51;
-        background-size: cover;
-        text-align: center;
-        padding: 100px 0;
-        color: #fff;
-    }
-    
-    #hero h1 {
-        font-size: 36px;
-        margin-bottom: 20px;
-    }
-    
-    #hero p {
-        font-size: 18px;
-        margin-bottom: 20px;
-    }
-    
-    #hero a {
-        background-color: #e87c25;
-        color: #fff;
-        padding: 10px 20px;
-        text-decoration: none;
-        border: none;
-        cursor: pointer;
-    }
-    
-    #hero a:hover {
-        background-color: #d6681d;
-    }
 
-   
-    
     #teenused {
         background-color: #ffffff; 
         text-align: center;
@@ -165,25 +132,25 @@
     }
 
     #teenused h2 {
-        font-size: 36px; /* Adjust the font size as needed */
+        font-size: 36px; 
         margin-bottom: 20px;
         color: #333; 
-        font-weight: bold; /* Make the heading bold */
+        font-weight: bold; 
     }
     
     .list-container {
         display: flex;
-        flex-wrap: wrap; /* Allow items to wrap to the next row */
-        justify-content: center; /* Center items horizontally */
+        flex-wrap: wrap; 
+        justify-content: center; 
     }
     
     .list-item {
-        border: 2px solid #ccc; /* Add thicker borders around each item */
-        border-radius: 10px; /* Add rounded corners */
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add box shadow */
-        margin: 10px; /* Adjust spacing between items */
-        width: calc(33.33% - 20px); /* Set width for each item (minus margins) */
-        transition: all 0.3s ease; /* Add transition effect for hover */
+        border: 2px solid #ccc; 
+        border-radius: 10px; 
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+        margin: 10px; 
+        width: calc(33.33% - 20px); 
+        transition: all 0.3s ease; 
     }
     
     
@@ -197,14 +164,14 @@
     }
     @media only screen and (max-width: 768px) {
         .list-item {
-            width: calc(50% - 20px); /* Set width for each item on smaller screens */
+            width: calc(50% - 20px); 
         }
         nav ul li {
-            margin-right: 10px; /* Reduce margin between list items on smaller screens */
+            margin-right: 10px;  
         }
         
         nav ul li a {
-            font-size: 16px; /* Decrease font size for smaller screens */
+            font-size: 16px;
         }
     
     }
@@ -223,7 +190,7 @@
         position: relative;
         overflow: hidden;
      
-     /* Ensure images are contained within the box */
+     
     }
     
     .ees img {
@@ -277,15 +244,15 @@
 
 footer {
     margin-top: auto;
-    background-color: #333; /* Change the background color */
-    color: #fff; /* Change the text color */
+    background-color: #333; 
+    color: #fff; 
     text-align: center;
     padding: 50px 0;
 }
 
 #contact {
-    max-width: 800px; /* Limit the width of the contact section */
-    margin: 0 auto; /* Center the contact section horizontally */
+    max-width: 800px; 
+    margin: 0 auto; 
 }
 
 #contact h2 {
@@ -313,8 +280,8 @@ footer {
 }
 .pilt1 {
     width: 100%;
-    height: 100%; /* Ensure the image covers the container */
-    object-fit: cover; /* Ensure the image covers the container without distortion */
+    height: 100%; 
+    object-fit: cover; 
     display: block;
 }
 
@@ -338,7 +305,7 @@ footer {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Align items to the end (right side) */
+    justify-content: center; 
     align-items: flex-end;
 }
 
@@ -359,17 +326,90 @@ footer {
     display: inline-block;
   background-color: #ffffff;
   color: #323232;
-  padding: 5px; /* Adjust padding as needed */
+  padding: 5px; 
   width: fit-content;
   font-family: 'Times New Roman', Times, serif;
   padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-@media screen and (max-width: 600px) {
-    .tume {
-      width: auto; /* Adjust width to fit the mobile screen */
-      padding: 5px; /* Adjust padding for smaller screens */
-      font-size: 12px;
+
+  @media screen and (max-width: 600px) {
+
+     /* styles for smaller screens */
+     #navbar {
+        padding: 10px 0; 
+        position: static;
     }
-  }
+
+    #navbar ul {
+        flex-direction: column; 
+        align-items: center; 
+        margin-top: 10px; 
+    }
+
+    #navbar ul li {
+        margin: 5px 0; 
+    }
+
+   
+    #teenused {
+        padding: 30px 0; 
+    }
+
+    #teenused h2 {
+        font-size: 38px; 
+    }
+
+    .list-item {
+        width: calc(100% - 20px);
+    }
+
+    #teenused li {
+        font-size: 24px; 
+    }
+
+    .prev-btn,
+    .next-btn {
+        font-size: 8vw; 
+    }
+
+    #contact {
+        padding: 30px 0; 
+    }
+
+    #contact h2 {
+        font-size: 20px;
+    }
+
+    #contact p {
+        font-size: 16px; 
+    }
+
+    .ees img {
+        max-height: 70vh; 
+    }
+
+    
+    .text-overlay {
+        top: 70%; 
+    }
+
+    .text-overlay h3 {
+        font-size: 14px; 
+    }
+
+    .text-overlay p {
+        font-size: 14px; 
+    }
+
+    .logo-container {
+        font-size: 24px; 
+    }
+
+    
+    footer {
+        padding: 30px 0;
+    }
+
+}
