@@ -339,17 +339,19 @@ footer {
      /* styles for smaller screens */
      #navbar {
         padding: 10px 0; 
-        position: static;
+        position: static; 
+       
     }
 
     #navbar ul {
         flex-direction: column; 
-        align-items: center; 
+       
         margin-top: 10px; 
+        padding-left: 0; 
     }
 
     #navbar ul li {
-        margin: 5px 0; 
+        margin: 5px 0;
     }
 
    
@@ -396,7 +398,7 @@ footer {
     }
 
     .text-overlay h3 {
-        font-size: 14px; 
+        font-size: 10px; 
     }
 
     .text-overlay p {
