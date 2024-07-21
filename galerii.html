@@ -29,7 +29,7 @@
     <div class = "row">
         <div class="inside">
             <button id="openVideoBtn" class="video-thumbnail">
-                <img id="videoThumbnail" alt="Play Video" />
+                <img id="videoThumbnail" src="./static/thumbnail.png" alt="Play Video" />
                 <div class="play-button">&#9658;</div> <!-- Unicode play button symbol -->
             </button>
         </div>
@@ -110,24 +110,8 @@ document.addEventListener("DOMContentLoaded", function() {
     var imageModal = document.getElementById("imageModal");
     videoModal.style.display = "none";
     imageModal.style.display = "none";
-    
-    var video = document.getElementById("modalVideo");
-    video.pause();
-    video.currentTime = 0;
 
-    // Get the first frame of the video as a thumbnail
-    var videoThumbnail = document.getElementById("videoThumbnail");
-    var tempVideo = document.createElement("video");
-    tempVideo.src = "./static/laotamine.mp4";
-    tempVideo.crossOrigin = "anonymous"; // Allows for cross-origin image capture
-
-    tempVideo.addEventListener('loadeddata', function() {
-        var canvas = document.createElement('canvas');
-        canvas.width = tempVideo.videoWidth;
-        canvas.height = tempVideo.videoHeight;
-        canvas.getContext('2d').drawImage(tempVideo, 0, 0, canvas.width, canvas.height);
-        videoThumbnail.src = canvas.toDataURL();
-    });
+    // No need for video thumbnail capture code anymore
 });
 
 // Function to open the image modal
@@ -152,7 +136,7 @@ var closeButtons = document.getElementsByClassName("close");
 btn.onclick = function() {
     videoModal.style.display = "flex";
     var video = document.getElementById("modalVideo");
-    video.volume = 0.3; // Set volume to 30%
+    video.volume = 0.5; // Set volume to 50%
     video.play();
 }
 
@@ -179,6 +163,7 @@ window.onclick = function(event) {
         imageModal.style.display = "none";
     }
 }
+
 
 
     window.onscroll = function() {myFunction()};
